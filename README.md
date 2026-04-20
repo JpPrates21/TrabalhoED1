@@ -13,7 +13,7 @@ Para facilitar a gestão e comparação dos dados, foram implementadas as seguin
 
 A execução do programa é dividida em quatro fases essenciais:
 
-### 2.1. Leitura do Arquivo e Extração de Dados (Parsing)
+### 2.1. Leitura do Arquivo e Extração de Dados
 O programa acede ao arquivo de texto e processa cada linha individualmente. Através do método de manipulação de strings (`substr`), o programa separa o nome das sequências numéricas. Como cada data possui 6 dígitos (DDMMYY) e existem 3 datas por pessoa, os últimos 18 caracteres de cada linha são sempre tratados como o bloco de datas, enquanto o restante da linha é identificado como o nome.
 
 ### 2.2. Normalização do Século
