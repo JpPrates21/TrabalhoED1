@@ -33,7 +33,7 @@ Data extrairData(string str) {
 }
 
 int main() {
-    ifstream arquivo("C:/ED/Array/arquivo.txt");
+    ifstream arquivo("arquivo.txt");
     if (!arquivo.is_open()) {
         cout << "ERRO: O programa nao encontrou o arquivo.txt!" << endl;
         return 1;
